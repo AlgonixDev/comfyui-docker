@@ -22,7 +22,7 @@ permissions:
 env:
   OWNER: ${{ github.repository_owner }}
   # Will use repository variable GHCR_BADGES_GIST_ID if set, else falls back to hardcoded gist ID.
-  GIST_ID: ${{ vars.GHCR_BADGES_GIST_ID != '' && vars.GHCR_BADGES_GIST_ID || 'eea88cce8184a10cf25b2b09266d236a' }}
+  GIST_ID: ${{ vars.GHCR_BADGES_GIST_ID != '' && vars.GHCR_BADGES_GIST_ID || 'cc79212fdaa077cfa5eb5115615e8154' }}
   # File name prefix to avoid collisions if sharing a gist for multiple repos.
   BADGE_PREFIX: ghcr-last-updated
 
